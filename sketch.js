@@ -191,7 +191,6 @@ function animals(){
   
      obstacle.scale = random(0.5,0.8);;
     obstacle.setCollider("rectangle",0,0,300,100);
-    obstacle.debug = true;
      obstacle.lifetime = 225;
     animalGroup.add(obstacle);
     
